@@ -6,6 +6,7 @@
 
     <!-- <?php include(''); ?> -->
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/bc1a33e08a.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="src/css/header.css">
     <!-- Usar o $_SERVER["DOCUMENT_ROOT"]; pra jogar a orgigem no component header-->
@@ -22,17 +23,32 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse nav-glapp-itens-container" id="navbarNav">
               <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item active nav-glapp-item-place">
+                  <a class="nav-link" href="#"><i class="fa fa-th fa-lg nav-glapp-item" aria-hidden="true"></i></a>
+                  <a class="nav-link nav-glapp-label-resp">Layout</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
+                <li class="nav-item nav-glapp-item-place">
+                  <a class="nav-link" href="#"><i class="fa fa-question-circle fa-lg nav-glapp-item" aria-hidden="true"></i></a>
+                  <a class="nav-link nav-glapp-label-resp">Manual</a>
                 </li>
-              </ul>
+                <li class="nav-item nav-glapp-item-place">
+
+                  <div class="dropdown nav-glapp-drop-container">
+                    <a class="nav-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cog fa-lg nav-glapp-item" aria-hidden="true"></i></a>
+                    <label class="nav-glapp-label-resp">Opções</label>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="margin-left: 2vw;">
+                      <a class="dropdown-item" href="#">-Administrar-</a>
+                      <a class="dropdown-item" href="#">-Sair-</a>
+                    </div>
+                </div>
+
+                </li>
+              </ul>            
             </div>
-          </nav>
+          </nav>    
     </header>
 
     <main>
