@@ -1,0 +1,15 @@
+
+.nav-glapp-light {
+    background-color: #4643FA !important;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.nav-glapp-text {
+    color: #ffffff !important;
+    padding-left: 10vw;
+}
+.nav-glapp-title {
+    font-size: 2em;
+}
+.nav-glapp-title:hover {
+    text-decoration: none;
+}
