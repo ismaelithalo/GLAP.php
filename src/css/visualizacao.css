@@ -1,0 +1,53 @@
+.glapp-section {
+    margin-top: 13vh;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.glapp-nav-titulo {
+    width: 80vw;
+    height: 50px;
+    background-color: #4643FA;
+    border-radius: 10px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 1vh;
+    margin-bottom: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.glapp-nav-titulo h1 {
+    font-size: 2em;
+}
+
+.glapp-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.glapp-card {
+    width: 250px !important;
+    margin-top: 5vh;
+}
+
+
+@media (max-width: 700px) { 
+    .glapp-section {
+        margin-top: 7vh;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+    }
+
+    .glapp-nav-titulo h1 {
+        font-size: 1.5em;
+    }
+}
+@media (max-width: 420px) { 
+    .glapp-nav-titulo {
+        padding-top: 2vh;
+    }
+    .glapp-nav-titulo h1 {
+        font-size: 1.1em;
+    }
+}
