@@ -52,4 +52,7 @@
     .nav-glapp-drop-container {
         display: flex;
     }
+    .dropdown-item {
+        background-color: #ffffff;
+    }
  }
