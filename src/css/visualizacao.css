@@ -1,6 +1,7 @@
 .glapp-section {
     margin-top: 13vh;
     font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin-bottom: 7vh;
 }
 .glapp-nav-titulo {
     width: 80vw;
@@ -26,12 +27,6 @@
     padding-left: 10vw;
     padding-right: 10vw;
 }
-
-.glapp-card {
-    width: 250px !important;
-    margin-top: 5vh;
-}
-
 
 @media (max-width: 700px) { 
     .glapp-section {

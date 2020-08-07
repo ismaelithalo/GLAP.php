@@ -1,0 +1,9 @@
+.glapp-card {
+    width: 23em !important;
+    margin-top: 5vh;
+    border: solid 2px #4643FA;
+}
+.glapp-card-body {
+    background-color: #4643FA;
+    color: #ffffff;
+}
