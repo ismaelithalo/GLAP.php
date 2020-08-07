@@ -1,2 +1,2 @@
-# glapp
-GLAPP (Gerenciador local de arquivos e postagens em PHP) é um compilado simples de códigos php de administração de arquivos em loco, a pasta em que está hospedado, e possui muitas aplicações que podem substituir o uso de um banco de dados, facilitando sua aplicação.
+# GLAP.php
+O glap.php - Gerenciador Local de Arquivos e Postagens em PHP: é um compilado de códigos php para administração de arquivos "in loco", e pode servir para substituir o uso de um banco de dados para aplicações simples.
